@@ -6,4 +6,6 @@ function Stack(){
     this.pop = () => items.pop();
 
     this.peek = () => items[items.length - 1];
+
+    this.isEmpty = () => items.length == 0;
 }
