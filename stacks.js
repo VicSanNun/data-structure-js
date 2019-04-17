@@ -10,4 +10,6 @@ function Stack(){
     this.isEmpty = () => items.length == 0;
 
     this.clear = () => items = [];
+
+    this.print = () => console.log(items.toString());
 }
