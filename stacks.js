@@ -8,4 +8,6 @@ function Stack(){
     this.peek = () => items[items.length - 1];
 
     this.isEmpty = () => items.length == 0;
+
+    this.clear = () => items = [];
 }
