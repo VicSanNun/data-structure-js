@@ -1,0 +1,24 @@
+{
+  "name": "data-structure",
+  "version": "1.0.0",
+  "description": "basic data structures classes",
+  "main": "index.js",
+  "dependencies": {
+
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "tsc -p ./tsconfig.json && node ./jsfiles/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VicSanNun/data-structure-js.git"
+  },
+  "author": "Victor Nunes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VicSanNun/data-structure-js/issues"
+  },
+  "homepage": "https://github.com/VicSanNun/data-structure-js#readme"
+}

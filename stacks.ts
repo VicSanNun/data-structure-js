@@ -1,49 +1,35 @@
-class Stack {
+export class Stack {
+    private items: Array<any>;
+    
     constructor(){
         this.items = [];
     }
 
-    push(element){
+    public push(element: any): void{
         this.items.push(element);
     }
 
-    pop(){
+    public pop(): void{
         this.items.pop();
     }
 
-    peek(){
+    public peek(): void{
         return this.items[this.items.length - 1];
     }
 
-    isEmpty(){
+    public isEmpty(): boolean{
         return this.items.length == 0;
     }
 
-    size(){
+    public size(): any{
         return this.items.length;
     }
 
-    clear(){
+    public clear(): void{
         this.items = [];
     }
 
-    print(){
+    public print(): void{
         console.log(this.items.toString());
     }
 }
-
-const stack = new Stack();
-console.log(stack.isEmpty());
-
-stack.push(1);
-stack.push(32);
-stack.push(13);
-
-console.log(stack.isEmpty());
-stack.print();
-
-stack.pop();
-stack.print();
-
-stack.clear();
-console.log(stack.isEmpty());
