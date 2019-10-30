@@ -1,4 +1,4 @@
-import { Stack } from './stacks';
+import { Stack } from './class/stacks';
 
 const stack = new Stack();
 console.log(stack.isEmpty());
